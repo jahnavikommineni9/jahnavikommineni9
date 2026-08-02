@@ -17,15 +17,12 @@
 </p>
 
 </div>
-
-<h2 align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2500&pause=1000&color=FF0033&center=true&vCenter=true&width=450&lines=SYSTEM+PROFILE" />
-</h2>
+<h2 align="center">⚡ About Me</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jahnavikommineni9/jahnavikommineni9/main/assets/about-card.svg" width="900" alt="About Me"/>
+  <img src="./assets/about-card.svg" width="900" alt="About Me"/>
 </p>
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=FF0033&height=2&section=footer"/>
+</h2>
 
 # ⚡ Tech Stack
 
