@@ -571,29 +571,6 @@ repeatCount="indefinite"/>
 
 </rect>
 
-<!-- ================================= -->
-<!-- FOOTER -->
-<!-- ================================= -->
-
-<line
-x1="40"
-y1="540"
-x2="860"
-y2="540"
-stroke="#330000"
-stroke-width="2"/>
-
-<text
-x="450"
-y="555"
-text-anchor="middle"
-fill="#888888"
-font-size="13"
-font-family="Consolas">
-
-ACHIEVEMENT VAULT • BUILD • LEARN • INNOVATE • EVOLVE
-
-</text>
 
 </svg>
   
