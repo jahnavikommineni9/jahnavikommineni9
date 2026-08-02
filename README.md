@@ -1,58 +1,83 @@
 <div align="center">
 
-# 👋 Hi, I'm Jahnavi Kommineni
+# ❤️ Hi, I'm Jahnavi Kommineni
 
-### 🎓 B.Tech (IoT – Cyber Security & Blockchain) | KL University | India 🇮🇳
+### Cyber Security • AI • IoT • Japanese Learner 🇯🇵
 
-<img src="assets/banner.svg" width="100%" alt="Banner"/>
+<p>
+<img src="assets/banner.svg" width="100%">
+</p>
 
-<img src="assets/anime-card.svg" width="320" alt="Anime Avatar"/>
+<p>
+<img src="assets/typing.svg">
+</p>
+
+<p>
+<img src="assets/anime-card.svg" width="350">
+</p>
 
 </div>
 
 ---
 
-# ❤️ About Me
+# 🌸 About Me
 
 🎓 Final Year B.Tech Student at **KL University**
 
-🔐 Passionate about **Cyber Security**
+💻 Specialization in **IoT (Cyber Security & Blockchain)**
 
-🤖 Exploring **Artificial Intelligence & Machine Learning**
+🔐 Passionate about Cyber Security
 
-📡 Building **IoT Projects**
+🤖 Learning Artificial Intelligence & Machine Learning
 
-💻 Interested in **Full Stack Development**
+📡 Building IoT Projects
 
-🇯🇵 Learning **Japanese (NAT N5)**
+🇯🇵 Currently learning Japanese (NAT N5)
 
-🌱 Always learning new technologies and building practical projects.
-
----
-
-# 🚀 Currently Working On
-
-- 🔐 Cyber Security Projects
-- 🤖 AI & Machine Learning
-- 📡 IoT Applications
-- 🌐 Full Stack Web Development
+🚀 Open to internships and collaborations.
 
 ---
 
-# 📫 Connect With Me
+# ⚡ Tech Stack
 
 <p align="center">
-<a href="https://www.linkedin.com/in/jahnavi-kommineni-a17698357/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
 
-<a href="mailto:jahnavikommineni1905@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+<img src="https://skillicons.dev/icons?i=python"/>
 
-<a href="https://github.com/jahnavikommineni9">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<img src="https://skillicons.dev/icons?i=java"/>
+
+<img src="https://skillicons.dev/icons?i=html"/>
+
+<img src="https://skillicons.dev/icons?i=css"/>
+
+<img src="https://skillicons.dev/icons?i=javascript"/>
+
+<img src="https://skillicons.dev/icons?i=git"/>
+
+<img src="https://skillicons.dev/icons?i=github"/>
+
+<img src="https://skillicons.dev/icons?i=flask"/>
+
 </p>
 
 ---
+
+# 🚀 Featured Projects
+
+- 🎙 AI Voice Assistant using ESP32
+
+- 📹 Raspberry Pi Smart Security Camera
+
+- 🤖 Human Following Robot
+
+- 🌐 Student ERP Management System
+
+- 📊 Analytics Dashboard
+
+---
+
+<div align="center">
+
+⭐ **"Building secure systems, intelligent solutions, and learning something new every day."**
+
+</div>
