@@ -35,5 +35,14 @@ alt="Tech Matrix">
 <p align="center">
   <img src="./assets/projects-card.svg" width="100%" alt="Project Database"/>
 </p>
+<p align="center">
+  <img src="./assets/japan-card.svg" width="100%" alt="Japanese Journey"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/jahnavikommineni9/jahnavikommineni9/blob/main/assets/certificate.jpg">
+    📜 View Full NAT N5 Certificate
+  </a>
+</p>
 
 ---
