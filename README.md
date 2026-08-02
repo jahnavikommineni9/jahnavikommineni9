@@ -55,21 +55,4 @@ alt="Tech Matrix">
 <p align="center">
   <img src="https://raw.githubusercontent.com/jahnavikommineni9/jahnavikommineni9/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
 </p>
-<h2 align="center">📬 Let's Connect</h2>
 
-<p align="center">
-
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-ff0033?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
-<img src="https://img.shields.io/badge/LinkedIn-ff0033?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/jahnavikommineni9">
-<img src="https://img.shields.io/badge/GitHub-ff0033?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</p>
----
