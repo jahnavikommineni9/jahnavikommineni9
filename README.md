@@ -33,22 +33,12 @@ src="./assets/tech-card.svg"
 width="100%"
 alt="Tech Matrix">
 </p>
-# 🚀 Featured Projects
+<h2 align="center">
+🚀 Featured Projects
+</h2>
 
-- 🎙 AI Voice Assistant using ESP32
-
-- 📹 Raspberry Pi Smart Security Camera
-
-- 🤖 Human Following Robot
-
-- 🌐 Student ERP Management System
-
-- 📊 Analytics Dashboard
+<p align="center">
+  <img src="./assets/projects-card.svg" width="100%" alt="Project Database"/>
+</p>
 
 ---
-
-<div align="center">
-
-⭐ **"Building secure systems, intelligent solutions, and learning something new every day."**
-
-</div>
