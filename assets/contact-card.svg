@@ -393,28 +393,5 @@ font-family="Consolas">
 SYSTEM v3.0
 
 </text>
-  <!-- ================================= -->
-<!-- FOOTER -->
-<!-- ================================= -->
-
-<line
-x1="40"
-y1="280"
-x2="860"
-y2="280"
-stroke="#330000"
-stroke-width="2"/>
-
-<text
-x="450"
-y="295"
-text-anchor="middle"
-fill="#888888"
-font-size="13"
-font-family="Consolas">
-
-CONNECT • COLLABORATE • BUILD • INNOVATE
-
-</text>
-
+</svg>
 </svg>
