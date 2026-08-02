@@ -72,8 +72,8 @@ filter="url(#glow)"/>
 
 <!-- Corner Dots -->
 
-<circle cx="28" cy="492" r="6" fill="#ff0033"/>
-<circle cx="872" cy="492" r="6" fill="#ff0033"/>
+<circle cx="28" cy="25" r="6" fill="#ff0033"/>
+<circle cx="872" cy="25" r="6" fill="#ff0033"/>
 <circle cx="28" cy="532" r="6" fill="#ff0033"/>
 <circle cx="872" cy="532" r="6" fill="#ff0033"/>
 
