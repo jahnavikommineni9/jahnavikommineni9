@@ -1,7 +1,7 @@
 <svg
 width="900"
 height="520"
-viewBox="0 0 900 520"
+viewBox="0 0 900 560"
 xmlns="http://www.w3.org/2000/svg">
 
 <!-- ================================= -->
@@ -48,12 +48,12 @@ stroke-width="1"/>
 
 <rect
 width="900"
-height="520"
+height="560"
 fill="url(#bg)"/>
 
 <rect
 width="900"
-height="520"
+height="560"
 fill="url(#grid)"
 opacity="0.45"/>
 
@@ -63,7 +63,7 @@ opacity="0.45"/>
 x="12"
 y="12"
 width="876"
-height="496"
+height="536"
 rx="20"
 fill="none"
 stroke="#ff0033"
@@ -72,10 +72,10 @@ filter="url(#glow)"/>
 
 <!-- Corner Dots -->
 
-<circle cx="28" cy="28" r="6" fill="#ff0033"/>
-<circle cx="872" cy="28" r="6" fill="#ff0033"/>
 <circle cx="28" cy="492" r="6" fill="#ff0033"/>
 <circle cx="872" cy="492" r="6" fill="#ff0033"/>
+<circle cx="28" cy="532" r="6" fill="#ff0033"/>
+<circle cx="872" cy="532" r="6" fill="#ff0033"/>
 
 <!-- ================================= -->
 <!-- TITLE -->
@@ -665,6 +665,45 @@ repeatCount="indefinite"/>
 
 </rect>
 
+    <!-- VIEW CERTIFICATE BUTTON -->
+
+<a href="https://github.com/jahnavikommineni9/jahnavikommineni9/blob/main/assets/certificate.jpg">
+
+<rect
+x="120"
+y="435"
+width="170"
+height="34"
+rx="8"
+fill="#111111"
+stroke="#00ff66">
+
+<animate
+attributeName="stroke"
+values="#00ff66;#66ff99;#00ff66"
+dur="2s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<text
+x="205"
+y="457"
+text-anchor="middle"
+fill="#00ff66"
+font-size="16"
+font-family="Consolas"
+font-weight="bold">
+
+🔍 VIEW CERTIFICATE
+
+</text>
+
+</a>
+
+<!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
 <!-- ================================= -->
 <!-- FOOTER -->
 <!-- ================================= -->
