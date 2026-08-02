@@ -145,5 +145,177 @@ dur="4s"
 repeatCount="indefinite"/>
 
 </circle>
+<!-- ================= HERO TEXT ================= -->
 
+<text
+x="430"
+y="75"
+fill="#ffffff"
+font-size="28"
+font-family="Segoe UI"
+font-weight="bold">
+
+Hi, I'm
+
+</text>
+
+<text
+x="420"
+y="150"
+fill="#ff1a3d"
+font-size="86"
+font-family="Impact"
+font-weight="900"
+filter="url(#glow)">
+
+JAHNAVI
+
+<animate
+attributeName="opacity"
+values="0.85;1;0.85"
+dur="2s"
+repeatCount="indefinite"/>
+
+</text>
+
+<text
+x="430"
+y="205"
+fill="#ffffff"
+font-size="46"
+font-family="Arial"
+font-style="italic">
+
+KOMMINENI
+
+</text>
+
+<!-- ================= SUBTITLE ================= -->
+
+<rect
+x="410"
+y="230"
+width="410"
+height="38"
+rx="8"
+fill="#111111"
+stroke="#ff1a3d"
+stroke-width="1.5"/>
+
+<text
+x="430"
+y="255"
+fill="white"
+font-size="18"
+font-family="Arial">
+
+CYBER SECURITY • AI • IoT • JAPANESE LEARNER
+
+</text>
+
+<!-- ================= TOP LEFT CODE ================= -->
+
+<text
+x="260"
+y="38"
+fill="#ff5b5b"
+font-size="15"
+font-family="Consolas">
+
+&gt;&gt; while(alive){
+
+</text>
+
+<text
+x="280"
+y="60"
+fill="#ffffff"
+font-size="15"
+font-family="Consolas">
+
+learn();
+
+</text>
+
+<text
+x="280"
+y="82"
+fill="#ffffff"
+font-size="15"
+font-family="Consolas">
+
+build();
+
+</text>
+
+<text
+x="280"
+y="104"
+fill="#ffffff"
+font-size="15"
+font-family="Consolas">
+
+secure();
+
+</text>
+
+<text
+x="260"
+y="126"
+fill="#ff5b5b"
+font-size="15"
+font-family="Consolas">
+
+}
+
+</text>
+
+<!-- ================= DECORATIVE CORNERS ================= -->
+
+<path
+d="M25 25 L70 25 M25 25 L25 70"
+stroke="#ff1a3d"
+stroke-width="3"
+fill="none"/>
+
+<path
+d="M1175 25 L1130 25 M1175 25 L1175 70"
+stroke="#ff1a3d"
+stroke-width="3"
+fill="none"/>
+
+<path
+d="M25 295 L70 295 M25 295 L25 250"
+stroke="#ff1a3d"
+stroke-width="3"
+fill="none"/>
+
+<path
+d="M1175 295 L1130 295 M1175 295 L1175 250"
+stroke="#ff1a3d"
+stroke-width="3"
+fill="none"/>
+
+<!-- ================= GLOWING DOTS ================= -->
+
+<circle cx="1010" cy="40" r="2" fill="#ff1a3d">
+<animate attributeName="r"
+values="2;5;2"
+dur="2s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1040" cy="55" r="2" fill="#ff1a3d">
+<animate attributeName="r"
+values="2;5;2"
+dur="3s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1080" cy="35" r="2" fill="#ff1a3d">
+<animate attributeName="r"
+values="2;5;2"
+dur="2.5s"
+repeatCount="indefinite"/>
+</circle>
 </svg>
