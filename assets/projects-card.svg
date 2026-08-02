@@ -603,29 +603,4 @@ dur="3.2s"
 fill="freeze"/>
 
 </rect>
-
-<!-- ================================= -->
-<!-- FOOTER -->
-<!-- ================================= -->
-
-<line
-x1="40"
-y1="595"
-x2="860"
-y2="595"
-stroke="#330000"
-stroke-width="2"/>
-
-<text
-x="450"
-y="612"
-text-anchor="middle"
-fill="#888888"
-font-size="13"
-font-family="Consolas">
-
-PROJECT DATABASE • BUILD • LEARN • CREATE • INNOVATE
-
-</text>
-
 </svg>
