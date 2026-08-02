@@ -22,35 +22,9 @@
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2500&pause=1000&color=FF0033&center=true&vCenter=true&width=450&lines=SYSTEM+PROFILE" />
 </h2>
 
-```diff
-+ ███████████████████████████████
-+      JAHNAVI KOMMINENI
-+ ███████████████████████████████
-
-> STATUS      : ONLINE
-> LOCATION    : INDIA 🇮🇳
-> UNIVERSITY  : KL UNIVERSITY
-> DEGREE      : B.TECH
-> BRANCH      : IoT
-> SPECIALITY  : Cyber Security & Blockchain
-> YEAR        : FINAL YEAR
-
-+ CURRENT MISSION
-  Build secure AI-powered IoT systems
-  Learn AI and Cyber Security
-  Become a Software Engineer
-
-+ CURRENTLY LEARNING
-  • Python
-  • AI / ML
-  • Raspberry Pi
-  • ESP32
-  • Japanese (NAT N5)
-
-+ PERSONALITY
-  Curious • Consistent • Creative • Fast Learner
-```
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jahnavikommineni9/jahnavikommineni9/main/assets/about-card.svg" width="900" alt="About Me"/>
+</p>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=FF0033&height=2&section=footer"/>
 
 # ⚡ Tech Stack
