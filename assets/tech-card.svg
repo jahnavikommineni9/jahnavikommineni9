@@ -408,16 +408,17 @@ fill="freeze"/>
 </rect>
 
 <text
-x="215"
+x="228"
 y="237"
+text-anchor="end"
 fill="#ff6666"
-font-size="14"
-font-family="Consolas">
+font-size="12"
+font-family="Consolas"
+font-weight="bold">
 
 88%
 
 </text>
-
 <!-- Git -->
 <rect
 x="255"
@@ -662,16 +663,17 @@ fill="freeze"/>
 </rect>
 
 <text
-x="525"
+x="538"
 y="332"
+text-anchor="end"
 fill="#ff6666"
-font-size="14"
-font-family="Consolas">
+font-size="12"
+font-family="Consolas"
+font-weight="bold">
 
 88%
 
 </text>
-
 <!-- AI / ML -->
 
 <rect
@@ -713,11 +715,13 @@ fill="freeze"/>
 </rect>
 
 <text
-x="725"
+x="738"
 y="332"
+text-anchor="end"
 fill="#ff6666"
-font-size="14"
-font-family="Consolas">
+font-size="12"
+font-family="Consolas"
+font-weight="bold">
 
 80%
 
