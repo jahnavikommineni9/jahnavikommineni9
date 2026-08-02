@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=jahnavikommineni9&label=Profile%20Views&color=ff0033&style=for-the-badge"/>
+</p>
 <div align="center">
 
 # ❤️ Hi, I'm Jahnavi Kommineni
@@ -38,7 +41,15 @@ alt="Tech Matrix">
 <p align="center">
   <img src="./assets/japan-card.svg" width="100%" alt="Japanese Journey"/>
 </p>
+<p align="center">
 
+<img height="170"
+src="https://github-readme-stats.vercel.app/api?username=jahnavikommineni9&show_icons=true&theme=radical&hide_border=true"/>
+
+<img height="170"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavikommineni9&layout=compact&theme=radical&hide_border=true"/>
+
+</p>
 <p align="center">
   <a href="https://github.com/jahnavikommineni9/jahnavikommineni9/blob/main/assets/certificate.jpg">
     📜 NAT N5 Certificate
