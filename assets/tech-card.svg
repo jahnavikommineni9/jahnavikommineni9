@@ -382,7 +382,7 @@ stroke="#ff0033"/>
 x="75"
 y="235"
 fill="#ffffff"
-font-size="22"
+font-size="18"
 font-family="Consolas">
 
 ⚡ JavaScript
@@ -408,7 +408,7 @@ fill="freeze"/>
 </rect>
 
 <text
-x="205"
+x="215"
 y="237"
 fill="#ff6666"
 font-size="14"
@@ -636,7 +636,7 @@ stroke="#ff0033"/>
 x="385"
 y="330"
 fill="#ffffff"
-font-size="20"
+font-size="17"
 font-family="Consolas">
 
 🍓 Raspberry Pi
@@ -662,7 +662,7 @@ fill="freeze"/>
 </rect>
 
 <text
-x="515"
+x="525"
 y="332"
 fill="#ff6666"
 font-size="14"
