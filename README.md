@@ -41,7 +41,7 @@ alt="Tech Matrix">
 
 <p align="center">
   <a href="https://github.com/jahnavikommineni9/jahnavikommineni9/blob/main/assets/certificate.jpg">
-    📜 View Full NAT N5 Certificate
+    📜 NAT N5 Certificate
   </a>
 </p>
 
