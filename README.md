@@ -55,4 +55,24 @@ alt="Tech Matrix">
 <p align="center">
   <img src="https://raw.githubusercontent.com/jahnavikommineni9/jahnavikommineni9/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
 </p>
+<h2 align="center">📬 Contact Terminal</h2>
 
+<p align="center">
+  <img src="./assets/contact-card.svg" width="100%" alt="Contact Terminal"/>
+</p>
+
+<p align="center">
+
+<a href="mailto:2300100009iot@gmail.com">
+<img src="https://img.shields.io/badge/Email-ff0033?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/jahnavi-kommineni-a17698357/">
+<img src="https://img.shields.io/badge/LinkedIn-ff0033?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/jahnavikommineni9">
+<img src="https://img.shields.io/badge/GitHub-ff0033?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</p>
