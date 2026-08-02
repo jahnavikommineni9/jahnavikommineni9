@@ -1,0 +1,631 @@
+<svg
+width="900"
+height="620"
+viewBox="0 0 900 620"
+xmlns="http://www.w3.org/2000/svg">
+
+<!-- ================================= -->
+<!-- DEFINITIONS -->
+<!-- ================================= -->
+
+<defs>
+
+<!-- Background -->
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#070707"/>
+<stop offset="100%" stop-color="#120000"/>
+
+</linearGradient>
+
+<!-- Border Glow -->
+<filter id="glow">
+
+<feGaussianBlur stdDeviation="4" result="blur"/>
+
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+
+</filter>
+
+<!-- Grid -->
+<pattern
+id="grid"
+width="60"
+height="60"
+patternUnits="userSpaceOnUse">
+
+<path
+d="M60 0H0V60"
+fill="none"
+stroke="#440011"
+stroke-width="1"/>
+
+</pattern>
+
+</defs>
+
+<!-- ================================= -->
+<!-- BACKGROUND -->
+<!-- ================================= -->
+
+<rect
+width="900"
+height="620"
+fill="url(#bg)"/>
+
+<rect
+width="900"
+height="620"
+fill="url(#grid)"
+opacity="0.45"/>
+
+<!-- Border -->
+
+<rect
+x="12"
+y="12"
+width="876"
+height="596"
+rx="20"
+fill="none"
+stroke="#ff0033"
+stroke-width="3"
+filter="url(#glow)"/>
+
+<!-- Corner Dots -->
+
+<circle cx="28" cy="28" r="6" fill="#ff0033"/>
+<circle cx="872" cy="28" r="6" fill="#ff0033"/>
+<circle cx="28" cy="592" r="6" fill="#ff0033"/>
+<circle cx="872" cy="592" r="6" fill="#ff0033"/>
+
+<!-- ================================= -->
+<!-- TITLE -->
+<!-- ================================= -->
+
+<rect
+x="250"
+y="30"
+width="400"
+height="54"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="272"
+cy="57"
+r="8"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="450"
+y="65"
+text-anchor="middle"
+fill="white"
+font-size="24"
+font-family="Georgia"
+font-weight="bold">
+
+PROJECT DATABASE
+
+</text>
+
+<!-- Version -->
+
+<text
+x="805"
+y="30"
+fill="#666666"
+font-size="13"
+font-family="Consolas">
+
+SYSTEM v3.0
+
+</text>
+
+<!-- Japanese -->
+
+<text
+x="60"
+y="320"
+fill="#770022"
+font-size="42"
+font-family="serif"
+writing-mode="tb">
+
+計画
+
+</text>
+
+<!-- ================================= -->
+<!-- Scan Lines -->
+<!-- ================================= -->
+
+<line
+x1="40"
+y1="100"
+x2="860"
+y2="100"
+stroke="#330000"/>
+
+<line
+x1="40"
+y1="575"
+x2="860"
+y2="575"
+stroke="#330000"/>
+
+<!-- Animated Scan -->
+
+<rect
+x="-100"
+y="0"
+width="80"
+height="620"
+fill="white"
+opacity="0.05"
+transform="skewX(-20)">
+
+<animate
+attributeName="x"
+values="-100;980"
+dur="5s"
+repeatCount="indefinite"/>
+
+</rect>
+  <!-- ================================= -->
+<!-- PROJECT 1 -->
+<!-- ================================= -->
+
+<rect
+x="45"
+y="120"
+width="810"
+height="75"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle cx="72" cy="157" r="8" fill="#00ff66">
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+</circle>
+
+<text
+x="95"
+y="150"
+fill="#ffffff"
+font-size="20"
+font-family="Consolas"
+font-weight="bold">
+
+🎙 AI Voice Assistant
+
+</text>
+
+<text
+x="95"
+y="172"
+fill="#bbbbbb"
+font-size="14"
+font-family="Consolas">
+
+ESP32 • AI • Speech Recognition
+
+</text>
+
+<text
+x="675"
+y="150"
+fill="#00ff66"
+font-size="15"
+font-family="Consolas">
+
+STATUS : ONLINE
+
+</text>
+
+<!-- Progress -->
+
+<rect
+x="95"
+y="180"
+width="220"
+height="7"
+rx="4"
+fill="#330000"/>
+
+<rect
+x="95"
+y="180"
+width="220"
+height="7"
+rx="4"
+fill="#ff0033">
+
+<animate
+attributeName="width"
+values="0;220;220"
+dur="2s"
+fill="freeze"/>
+
+</rect>
+
+<!-- ================================= -->
+<!-- PROJECT 2 -->
+<!-- ================================= -->
+
+<rect
+x="45"
+y="215"
+width="810"
+height="75"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle cx="72" cy="252" r="8" fill="#00ff66">
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.7s"
+repeatCount="indefinite"/>
+</circle>
+
+<text
+x="95"
+y="245"
+fill="#ffffff"
+font-size="20"
+font-family="Consolas"
+font-weight="bold">
+
+📹 Smart Security Camera
+
+</text>
+
+<text
+x="95"
+y="267"
+fill="#bbbbbb"
+font-size="14"
+font-family="Consolas">
+
+Raspberry Pi • OpenCV • Flask
+
+</text>
+
+<text
+x="675"
+y="245"
+fill="#00ff66"
+font-size="15"
+font-family="Consolas">
+
+STATUS : ACTIVE
+
+</text>
+
+<rect
+x="95"
+y="275"
+width="220"
+height="7"
+rx="4"
+fill="#330000"/>
+
+<rect
+x="95"
+y="275"
+width="210"
+height="7"
+rx="4"
+fill="#ff0033">
+
+<animate
+attributeName="width"
+values="0;210;210"
+dur="2.5s"
+fill="freeze"/>
+
+</rect>
+  <!-- ================================= -->
+<!-- PROJECT 3 -->
+<!-- ================================= -->
+
+<rect
+x="45"
+y="310"
+width="810"
+height="75"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="72"
+cy="347"
+r="8"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.8s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="95"
+y="340"
+fill="#ffffff"
+font-size="20"
+font-family="Consolas"
+font-weight="bold">
+
+🤖 Human Following Robot
+
+</text>
+
+<text
+x="95"
+y="362"
+fill="#bbbbbb"
+font-size="14"
+font-family="Consolas">
+
+Arduino • Ultrasonic • Servo Motors
+
+</text>
+
+<text
+x="675"
+y="340"
+fill="#00ff66"
+font-size="15"
+font-family="Consolas">
+
+STATUS : COMPLETE
+
+</text>
+
+<rect
+x="95"
+y="370"
+width="220"
+height="7"
+rx="4"
+fill="#330000"/>
+
+<rect
+x="95"
+y="370"
+width="200"
+height="7"
+rx="4"
+fill="#ff0033">
+
+<animate
+attributeName="width"
+values="0;200;200"
+dur="2.7s"
+fill="freeze"/>
+
+</rect>
+
+<!-- ================================= -->
+<!-- PROJECT 4 -->
+<!-- ================================= -->
+
+<rect
+x="45"
+y="405"
+width="810"
+height="75"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="72"
+cy="442"
+r="8"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="95"
+y="435"
+fill="#ffffff"
+font-size="20"
+font-family="Consolas"
+font-weight="bold">
+
+🌐 Student ERP Management System
+
+</text>
+
+<text
+x="95"
+y="457"
+fill="#bbbbbb"
+font-size="14"
+font-family="Consolas">
+
+Python • Flask • Pandas • OpenPyXL
+
+</text>
+
+<text
+x="675"
+y="435"
+fill="#00ff66"
+font-size="15"
+font-family="Consolas">
+
+STATUS : DEPLOYED
+
+</text>
+
+<rect
+x="95"
+y="465"
+width="220"
+height="7"
+rx="4"
+fill="#330000"/>
+
+<rect
+x="95"
+y="465"
+width="215"
+height="7"
+rx="4"
+fill="#ff0033">
+
+<animate
+attributeName="width"
+values="0;215;215"
+dur="3s"
+fill="freeze"/>
+
+</rect>
+  <!-- ================================= -->
+<!-- PROJECT 5 -->
+<!-- ================================= -->
+
+<rect
+x="45"
+y="500"
+width="810"
+height="75"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="72"
+cy="537"
+r="8"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="2.2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="95"
+y="530"
+fill="#ffffff"
+font-size="20"
+font-family="Consolas"
+font-weight="bold">
+
+📊 Analytics Dashboard
+
+</text>
+
+<text
+x="95"
+y="552"
+fill="#bbbbbb"
+font-size="14"
+font-family="Consolas">
+
+Python • Charts • Dashboard • Data Visualization
+
+</text>
+
+<text
+x="675"
+y="530"
+fill="#00ff66"
+font-size="15"
+font-family="Consolas">
+
+STATUS : ONLINE
+
+</text>
+
+<!-- Progress -->
+
+<rect
+x="95"
+y="560"
+width="220"
+height="7"
+rx="4"
+fill="#330000"/>
+
+<rect
+x="95"
+y="560"
+width="220"
+height="7"
+rx="4"
+fill="#ff0033">
+
+<animate
+attributeName="width"
+values="0;220;220"
+dur="3.2s"
+fill="freeze"/>
+
+</rect>
+
+<!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
+
+<line
+x1="40"
+y1="595"
+x2="860"
+y2="595"
+stroke="#330000"
+stroke-width="2"/>
+
+<text
+x="450"
+y="612"
+text-anchor="middle"
+fill="#888888"
+font-size="13"
+font-family="Consolas">
+
+PROJECT DATABASE • BUILD • LEARN • CREATE • INNOVATE
+
+</text>
+
+</svg>
