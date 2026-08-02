@@ -22,7 +22,6 @@
 <p align="center">
   <img src="./assets/about-card.svg" width="900" alt="About Me"/>
 </p>
-</h2>
 
 # ⚡ Tech Stack
 
