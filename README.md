@@ -7,11 +7,6 @@
 <p>
 <img src="assets/banner.svg" width="100%">
 </p>
-
-<p>
-<img src="assets/typing.svg">
-</p>
-
 <p>
 <img src="assets/anime-card.svg" width="350">
 </p>
