@@ -1,71 +1,104 @@
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=jahnavikommineni9&label=Profile%20Views&color=ff0033&style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=jahnavikommineni9&label=PROFILE+VIEWS&color=ff0033&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/followers/jahnavikommineni9?style=for-the-badge&color=ff0033&labelColor=111111"/>
+  <img src="https://img.shields.io/github/stars/jahnavikommineni9?style=for-the-badge&color=ff0033&labelColor=111111"/>
 </p>
+
 <div align="center">
 
 # ❤️ Hi, I'm Jahnavi Kommineni
 
-### Cyber Security • AI • IoT • Japanese Learner 🇯🇵
+### Cyber Security • AI/ML • IoT • Japanese Learner 🇯🇵
 
 <p>
-<img src="assets/banner.svg" width="100%">
+  <img src="assets/banner.svg" width="100%">
 </p>
+
 <p>
-<img src="assets/anime-card.svg" width="350">
+  <img src="assets/anime-card.svg" width="350">
 </p>
 
 </div>
+
+---
+
 <h2 align="center">⚡ About Me</h2>
 
 <p align="center">
-  <img src="./assets/about-card.svg" width="900" alt="About Me"/>
+  <img src="./assets/about-card.svg" width="100%" alt="About Me"/>
 </p>
 
-<h2 align="center">
-⚡ Tech Matrix
-</h2>
+---
+
+<h2 align="center">💻 Tech Matrix</h2>
 
 <p align="center">
-<img
-src="./assets/tech-card.svg"
-width="100%"
-alt="Tech Matrix">
+  <img src="./assets/tech-card.svg" width="100%" alt="Tech Matrix"/>
 </p>
-<h2 align="center">
-🚀 Featured Projects
-</h2>
+
+---
+
+<h2 align="center">📊 GitHub Analytics</h2>
+
+<p align="center">
+
+<img
+height="170"
+src="https://github-readme-stats.vercel.app/api?username=jahnavikommineni9&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=ff3366&icon_color=ff3366&text_color=ffffff&count_private=true"/>
+
+<img
+height="170"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavikommineni9&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=ff3366&text_color=ffffff"/>
+
+</p>
+
+<p align="center">
+
+<img
+src="https://streak-stats.demolab.com?user=jahnavikommineni9&theme=tokyonight&hide_border=true&background=00000000&ring=ff3366&fire=ff3366&currStreakLabel=ff3366"/>
+
+</p>
+
+---
+
+<h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
   <img src="./assets/projects-card.svg" width="100%" alt="Project Database"/>
 </p>
+
+---
+
+<h2 align="center">🇯🇵 Japanese Journey</h2>
+
 <p align="center">
   <img src="./assets/japan-card.svg" width="100%" alt="Japanese Journey"/>
 </p>
-<p align="center">
 
-<img height="170"
-src="https://github-readme-stats.vercel.app/api?username=jahnavikommineni9&show_icons=true&theme=radical&hide_border=true"/>
-
-<img height="170"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavikommineni9&layout=compact&theme=radical&hide_border=true"/>
-
-</p>
 <p align="center">
   <a href="https://github.com/jahnavikommineni9/jahnavikommineni9/blob/main/assets/certificate.jpg">
-    📜 NAT N5 Certificate
+    📜 View NAT N5 Certificate
   </a>
 </p>
+
+---
 
 <h2 align="center">🏆 Achievement Vault</h2>
 
 <p align="center">
   <img src="./assets/achievement-card.svg" width="100%" alt="Achievement Vault"/>
 </p>
+
+---
+
 <h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jahnavikommineni9/jahnavikommineni9/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
 </p>
+
+---
+
 <h2 align="center">📬 Contact Terminal</h2>
 
 <p align="center">
@@ -87,12 +120,18 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavikommi
 </a>
 
 </p>
+
+---
+
 <div align="center">
 
 # ❤️ Final Transmission
 
-### *"Building secure systems, creating intelligent solutions, and embracing lifelong learning—one commit at a time."*
+### *"Code with purpose. Learn without limits. Build for impact."*
 
 ⭐ **Thank you for visiting my profile! Let's build something amazing together.**
 
 </div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff0033&height=120&section=footer"/>
+</p>
