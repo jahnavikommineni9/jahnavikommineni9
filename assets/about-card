@@ -1,0 +1,828 @@
+<svg width="600" height="360"
+viewBox="0 0 600 360"
+xmlns="http://www.w3.org/2000/svg">
+
+<!-- ========================================= -->
+<!--               DEFINITIONS                  -->
+<!-- ========================================= -->
+
+<defs>
+
+<!-- Background -->
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+
+<stop offset="0%" stop-color="#070707"/>
+
+<stop offset="100%" stop-color="#120000"/>
+
+</linearGradient>
+
+<!-- Border Glow -->
+
+<filter id="glow">
+
+<feGaussianBlur stdDeviation="4" result="blur"/>
+
+<feMerge>
+
+<feMergeNode in="blur"/>
+
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+<!-- Portrait Glow -->
+
+<radialGradient id="portraitGlow">
+
+<stop offset="0%" stop-color="#ff3355"/>
+
+<stop offset="100%" stop-color="transparent"/>
+
+</radialGradient>
+
+<!-- Scan Line -->
+
+<linearGradient id="scan">
+
+<stop offset="0%" stop-color="transparent"/>
+
+<stop offset="50%" stop-color="#ff0033"/>
+
+<stop offset="100%" stop-color="transparent"/>
+
+</linearGradient>
+
+</defs>
+
+<!-- ========================================= -->
+<!--             BACKGROUND                     -->
+<!-- ========================================= -->
+
+<rect
+width="600"
+height="360"
+fill="url(#bg)"/>
+
+<!-- Grid -->
+
+<g opacity="0.12">
+
+<path d="M0 40H600" stroke="#ff0033"/>
+
+<path d="M0 80H600" stroke="#ff0033"/>
+
+<path d="M0 120H600" stroke="#ff0033"/>
+
+<path d="M0 160H600" stroke="#ff0033"/>
+
+<path d="M0 200H600" stroke="#ff0033"/>
+
+<path d="M0 240H600" stroke="#ff0033"/>
+
+<path d="M0 280H600" stroke="#ff0033"/>
+
+<path d="M0 320H600" stroke="#ff0033"/>
+
+<path d="M40 0V360" stroke="#ff0033"/>
+
+<path d="M80 0V360" stroke="#ff0033"/>
+
+<path d="M120 0V360" stroke="#ff0033"/>
+
+<path d="M160 0V360" stroke="#ff0033"/>
+
+<path d="M200 0V360" stroke="#ff0033"/>
+
+<path d="M240 0V360" stroke="#ff0033"/>
+
+<path d="M280 0V360" stroke="#ff0033"/>
+
+<path d="M320 0V360" stroke="#ff0033"/>
+
+<path d="M360 0V360" stroke="#ff0033"/>
+
+<path d="M400 0V360" stroke="#ff0033"/>
+
+<path d="M440 0V360" stroke="#ff0033"/>
+
+<path d="M480 0V360" stroke="#ff0033"/>
+
+<path d="M520 0V360" stroke="#ff0033"/>
+
+<path d="M560 0V360" stroke="#ff0033"/>
+
+</g>
+
+<!-- ========================================= -->
+<!--             MAIN BORDER                    -->
+<!-- ========================================= -->
+
+<rect
+x="8"
+y="8"
+width="584"
+height="344"
+rx="18"
+fill="none"
+stroke="#ff0033"
+stroke-width="2"
+filter="url(#glow)">
+
+<animate
+attributeName="stroke-opacity"
+values="0.5;1;0.5"
+dur="2.5s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Corner Decorations -->
+
+<path d="M24 40H55M24 40V70"
+stroke="#ff3355"
+stroke-width="3"/>
+
+<path d="M576 40H545M576 40V70"
+stroke="#ff3355"
+stroke-width="3"/>
+
+<path d="M24 320H55M24 320V290"
+stroke="#ff3355"
+stroke-width="3"/>
+
+<path d="M576 320H545M576 320V290"
+stroke="#ff3355"
+stroke-width="3"/>
+
+<!-- ========================================= -->
+<!--             TITLE PANEL                    -->
+<!-- ========================================= -->
+
+<rect
+x="180"
+y="20"
+width="240"
+height="42"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="200"
+cy="41"
+r="5"
+fill="#00ff66"/>
+
+<text
+x="300"
+y="47"
+text-anchor="middle"
+fill="white"
+font-size="20"
+font-family="Orbitron">
+
+SYSTEM PROFILE
+
+</text>
+<!-- ========================================= -->
+<!--          AVATAR HUD SECTION               -->
+<!-- ========================================= -->
+
+<!-- Glow Behind Avatar -->
+<circle
+cx="120"
+cy="170"
+r="72"
+fill="url(#portraitGlow)"
+opacity="0.25">
+
+<animate
+attributeName="opacity"
+values="0.15;0.45;0.15"
+dur="3s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Outer Ring -->
+<circle
+cx="120"
+cy="170"
+r="68"
+fill="none"
+stroke="#ff0033"
+stroke-width="2">
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="0 120 170"
+to="360 120 170"
+dur="10s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Inner Ring -->
+<circle
+cx="120"
+cy="170"
+r="58"
+fill="#111111"
+stroke="#ff3355"
+stroke-width="1.5"/>
+
+<!-- Avatar Placeholder -->
+<text
+x="120"
+y="165"
+text-anchor="middle"
+fill="#666666"
+font-size="14"
+font-family="Arial">
+
+YOUR
+
+</text>
+
+<text
+x="120"
+y="185"
+text-anchor="middle"
+fill="#666666"
+font-size="14"
+font-family="Arial">
+
+PHOTO
+
+</text>
+
+<!-- ========================================= -->
+<!--              SCAN LINE                    -->
+<!-- ========================================= -->
+
+<rect
+x="60"
+y="95"
+width="120"
+height="3"
+fill="url(#scan)"
+opacity="0.5">
+
+<animate
+attributeName="y"
+values="95;245;95"
+dur="3s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- ========================================= -->
+<!--           ONLINE STATUS                   -->
+<!-- ========================================= -->
+
+<rect
+x="40"
+y="270"
+width="160"
+height="36"
+rx="8"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="58"
+cy="288"
+r="5"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="120"
+y="293"
+text-anchor="middle"
+fill="#ffffff"
+font-size="15"
+font-family="Consolas">
+
+STATUS : ONLINE
+
+</text>
+
+<!-- ========================================= -->
+<!--         RIGHT INFO PANEL                  -->
+<!-- ========================================= -->
+
+<rect
+x="230"
+y="90"
+width="330"
+height="220"
+rx="12"
+fill="#111111"
+stroke="#ff0033"/>
+
+<text
+x="250"
+y="125"
+fill="#ff3355"
+font-size="22"
+font-family="Orbitron">
+
+ABOUT ME
+
+</text>
+
+<text
+x="250"
+y="155"
+fill="white"
+font-size="15"
+font-family="Arial">
+
+🎓 KL University
+
+</text>
+
+<text
+x="250"
+y="180"
+fill="white"
+font-size="15"
+font-family="Arial">
+
+💻 B.Tech • IoT
+
+</text>
+
+<text
+x="250"
+y="205"
+fill="white"
+font-size="15"
+font-family="Arial">
+
+🔐 Cyber Security & Blockchain
+
+</text>
+
+<text
+x="250"
+y="230"
+fill="white"
+font-size="15"
+font-family="Arial">
+
+🤖 AI • Machine Learning
+
+</text>
+
+<text
+x="250"
+y="255"
+fill="white"
+font-size="15"
+font-family="Arial">
+
+🇯🇵 Japanese Learner (NAT N5)
+
+</text>
+
+<text
+x="250"
+y="280"
+fill="white"
+font-size="15"
+font-family="Arial">
+
+🚀 Open to Internships
+
+</text>
+<!-- ========================================= -->
+<!--         CYBER EFFECTS - PART 3            -->
+<!-- ========================================= -->
+
+<!-- Rotating Radar -->
+<circle
+cx="120"
+cy="170"
+r="85"
+fill="none"
+stroke="#ff0033"
+stroke-width="1"
+opacity="0.20">
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="0 120 170"
+to="360 120 170"
+dur="15s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Radar Beam -->
+<line
+x1="120"
+y1="170"
+x2="120"
+y2="90"
+stroke="#ff3355"
+stroke-width="2"
+opacity="0.35">
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="0 120 170"
+to="360 120 170"
+dur="4s"
+repeatCount="indefinite"/>
+
+</line>
+
+<!-- Floating Particles -->
+
+<g fill="#ff3355">
+
+<circle cx="40" cy="60" r="2">
+<animate attributeName="cy"
+values="60;40;60"
+dur="4s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="560" cy="70" r="2">
+<animate attributeName="cy"
+values="70;50;70"
+dur="3.5s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="80" cy="320" r="2">
+<animate attributeName="cy"
+values="320;300;320"
+dur="5s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="540" cy="290" r="2">
+<animate attributeName="cy"
+values="290;270;290"
+dur="4.5s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="320" cy="45" r="2">
+<animate attributeName="cy"
+values="45;25;45"
+dur="3.8s"
+repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- Vertical Japanese -->
+
+<text
+x="585"
+y="80"
+fill="#ff0033"
+font-size="22"
+font-family="serif"
+opacity="0.25"
+writing-mode="tb">
+
+学守創
+
+</text>
+
+<!-- Digital Code -->
+
+<text
+x="440"
+y="40"
+fill="#ff3355"
+font-size="10"
+font-family="Consolas"
+opacity="0.35">
+
+01100101
+
+</text>
+
+<text
+x="440"
+y="55"
+fill="#ff3355"
+font-size="10"
+font-family="Consolas"
+opacity="0.35">
+
+10101010
+
+</text>
+
+<text
+x="440"
+y="70"
+fill="#ff3355"
+font-size="10"
+font-family="Consolas"
+opacity="0.35">
+
+11100011
+
+</text>
+
+<!-- Holographic Sweep -->
+
+<rect
+x="-100"
+y="0"
+width="90"
+height="360"
+fill="white"
+opacity="0.04"
+transform="skewX(-18)">
+
+<animate
+attributeName="x"
+values="-100;700"
+dur="5s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Pulse Lights -->
+
+<circle cx="18" cy="18" r="3" fill="#ff0033">
+<animate attributeName="r"
+values="3;6;3"
+dur="2s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="582" cy="18" r="3" fill="#ff0033">
+<animate attributeName="r"
+values="3;6;3"
+dur="2s"
+begin="0.5s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="18" cy="342" r="3" fill="#ff0033">
+<animate attributeName="r"
+values="3;6;3"
+dur="2s"
+begin="1s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="582" cy="342" r="3" fill="#ff0033">
+<animate attributeName="r"
+values="3;6;3"
+dur="2s"
+begin="1.5s"
+repeatCount="indefinite"/>
+</circle>
+
+<!-- Bottom Progress -->
+
+<text
+x="395"
+y="325"
+fill="#888888"
+font-size="12"
+font-family="Consolas">
+
+PROFILE COMPLETION
+
+</text>
+
+<rect
+x="390"
+y="335"
+width="150"
+height="8"
+rx="4"
+fill="#222222"/>
+
+<rect
+x="390"
+y="335"
+width="125"
+height="8"
+rx="4"
+fill="#ff0033">
+
+<animate
+attributeName="width"
+values="115;130;125"
+dur="3s"
+repeatCount="indefinite"/>
+
+</rect>
+<!-- ========================================= -->
+<!--         FINAL POLISH - PART 4             -->
+<!-- ========================================= -->
+
+<!-- Name Plate -->
+<rect
+x="225"
+y="55"
+width="335"
+height="28"
+rx="6"
+fill="#0b0b0b"
+stroke="#ff0033"
+stroke-width="1">
+
+<animate
+attributeName="stroke-opacity"
+values="0.4;1;0.4"
+dur="2s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<text
+x="392"
+y="74"
+text-anchor="middle"
+fill="#ff3355"
+font-size="18"
+font-family="Orbitron"
+font-weight="bold">
+
+JAHNAVI KOMMINENI
+
+<animate
+attributeName="fill"
+values="#ff3355;#ff6666;#ff3355"
+dur="2s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- Target Lock -->
+<circle
+cx="120"
+cy="170"
+r="92"
+fill="none"
+stroke="#ff0033"
+stroke-width="1"
+stroke-dasharray="10 6"
+opacity="0.35">
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="360 120 170"
+to="0 120 170"
+dur="12s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Moving Scanner Dot -->
+<circle
+cx="120"
+cy="78"
+r="4"
+fill="#ff0033">
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="0 120 170"
+to="360 120 170"
+dur="5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Divider -->
+<line
+x1="225"
+y1="80"
+x2="560"
+y2="80"
+stroke="#330000"/>
+
+<!-- Bottom Motto -->
+<text
+x="300"
+y="350"
+text-anchor="middle"
+fill="#666666"
+font-size="12"
+font-family="Consolas">
+
+BUILD • LEARN • INNOVATE • EVOLVE
+
+</text>
+
+<!-- Rotating JK Logo -->
+<g>
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="0 560 330"
+to="360 560 330"
+dur="20s"
+repeatCount="indefinite"/>
+
+<polygon
+points="
+560,316
+572,323
+572,337
+560,344
+548,337
+548,323"
+fill="none"
+stroke="#ff0033"
+stroke-width="2"/>
+
+</g>
+
+<text
+x="560"
+y="334"
+text-anchor="middle"
+fill="#ff0033"
+font-size="11"
+font-family="Arial"
+font-weight="bold">
+
+JK
+
+</text>
+
+<!-- Digital Glitch -->
+<line
+x1="230"
+y1="150"
+x2="550"
+y2="150"
+stroke="#ff0033"
+stroke-width="1"
+opacity="0">
+
+<animate
+attributeName="opacity"
+values="0;1;0"
+dur="0.2s"
+repeatCount="indefinite"/>
+
+</line>
+
+<!-- HUD Corners -->
+<path
+d="M215 85H235M215 85V105"
+stroke="#ff0033"
+stroke-width="2"/>
+
+<path
+d="M575 85H555M575 85V105"
+stroke="#ff0033"
+stroke-width="2"/>
+
+<path
+d="M215 315H235M215 315V295"
+stroke="#ff0033"
+stroke-width="2"/>
+
+<path
+d="M575 315H555M575 315V295"
+stroke="#ff0033"
+stroke-width="2"/>
+
+<!-- Version -->
+<text
+x="570"
+y="18"
+text-anchor="end"
+fill="#666666"
+font-size="10"
+font-family="Consolas">
+
+SYSTEM v3.0
+
+</text>
+</svg>
