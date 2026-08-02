@@ -23,30 +23,16 @@
   <img src="./assets/about-card.svg" width="900" alt="About Me"/>
 </p>
 
-# ⚡ Tech Stack
+<h2 align="center">
+⚡ Tech Matrix
+</h2>
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=python"/>
-
-<img src="https://skillicons.dev/icons?i=java"/>
-
-<img src="https://skillicons.dev/icons?i=html"/>
-
-<img src="https://skillicons.dev/icons?i=css"/>
-
-<img src="https://skillicons.dev/icons?i=javascript"/>
-
-<img src="https://skillicons.dev/icons?i=git"/>
-
-<img src="https://skillicons.dev/icons?i=github"/>
-
-<img src="https://skillicons.dev/icons?i=flask"/>
-
+<img
+src="./assets/tech-card.svg"
+width="100%"
+alt="Tech Matrix">
 </p>
-
----
-
 # 🚀 Featured Projects
 
 - 🎙 AI Voice Assistant using ESP32
