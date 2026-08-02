@@ -37,21 +37,23 @@
 </p>
 
 ---
-
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
+  <img height="170"
+       src="https://github-readme-stats.vercel.app/api?username=jahnavikommineni9&show_icons=true&theme=tokyonight&hide_border=true"
+       alt="GitHub Stats"/>
 
-<img
-height="170"
-src="https://github-readme-stats.vercel.app/api?username=jahnavikommineni9&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=ff3366&icon_color=ff3366&text_color=ffffff&count_private=true"/>
-
-<img
-height="170"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavikommineni9&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=ff3366&text_color=ffffff"/>
-
+  <img height="170"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavikommineni9&layout=compact&theme=tokyonight&hide_border=true"
+       alt="Top Languages"/>
 </p>
 
+<p align="center">
+  <img
+       src="https://streak-stats.demolab.com?user=jahnavikommineni9&theme=tokyonight&hide_border=true"
+       alt="GitHub Streak"/>
+</p>
 <p align="center">
 
 <img
@@ -134,4 +136,10 @@ src="https://streak-stats.demolab.com?user=jahnavikommineni9&theme=tokyonight&hi
 </div>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=ff0033&height=120&section=footer"/>
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=24,12,20&section=footer"/>
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=ff0033&section=footer"/>
 </p>
