@@ -665,42 +665,6 @@ repeatCount="indefinite"/>
 
 </rect>
 
-    <!-- VIEW CERTIFICATE BUTTON -->
-
-<a href="https://github.com/jahnavikommineni9/jahnavikommineni9/blob/main/assets/certificate.jpg">
-
-<rect
-x="120"
-y="435"
-width="170"
-height="34"
-rx="8"
-fill="#111111"
-stroke="#00ff66">
-
-<animate
-attributeName="stroke"
-values="#00ff66;#66ff99;#00ff66"
-dur="2s"
-repeatCount="indefinite"/>
-
-</rect>
-
-<text
-x="205"
-y="457"
-text-anchor="middle"
-fill="#00ff66"
-font-size="16"
-font-family="Consolas"
-font-weight="bold">
-
-🔍 VIEW CERTIFICATE
-
-</text>
-
-</a>
-
 <!-- ================================= -->
 <!-- FOOTER -->
 <!-- ================================= -->
