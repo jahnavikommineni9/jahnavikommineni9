@@ -1,0 +1,420 @@
+<svg
+width="900"
+height="300"
+viewBox="0 0 900 300"
+xmlns="http://www.w3.org/2000/svg">
+
+<!-- ============================== -->
+<!-- DEFINITIONS -->
+<!-- ============================== -->
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#070707"/>
+<stop offset="100%" stop-color="#120000"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+<pattern
+id="grid"
+width="60"
+height="60"
+patternUnits="userSpaceOnUse">
+
+<path
+d="M60 0H0V60"
+fill="none"
+stroke="#440011"
+stroke-width="1"/>
+
+</pattern>
+
+</defs>
+
+<!-- Background -->
+
+<rect
+width="900"
+height="300"
+fill="url(#bg)"/>
+
+<rect
+width="900"
+height="300"
+fill="url(#grid)"
+opacity="0.45"/>
+
+<!-- Border -->
+
+<rect
+x="12"
+y="12"
+width="876"
+height="276"
+rx="20"
+fill="none"
+stroke="#ff0033"
+stroke-width="3"
+filter="url(#glow)"/>
+
+<!-- Corner Dots -->
+
+<circle cx="28" cy="28" r="6" fill="#ff0033"/>
+<circle cx="872" cy="28" r="6" fill="#ff0033"/>
+<circle cx="28" cy="272" r="6" fill="#ff0033"/>
+<circle cx="872" cy="272" r="6" fill="#ff0033"/>
+
+<!-- Title -->
+
+<rect
+x="250"
+y="30"
+width="400"
+height="54"
+rx="10"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="275"
+cy="57"
+r="8"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="450"
+y="65"
+text-anchor="middle"
+fill="white"
+font-size="24"
+font-family="Georgia"
+font-weight="bold">
+
+📬 CONTACT TERMINAL
+
+</text>
+  <!-- ================================= -->
+<!-- EMAIL PANEL -->
+<!-- ================================= -->
+
+<rect
+x="45"
+y="115"
+width="250"
+height="120"
+rx="12"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="70"
+cy="140"
+r="7"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="95"
+y="146"
+fill="#ffffff"
+font-size="22"
+font-family="Georgia">
+
+📧 EMAIL
+
+</text>
+
+<text
+x="70"
+y="180"
+fill="#ff6699"
+font-size="15"
+font-family="Consolas">
+
+2300100009iot
+
+</text>
+
+<text
+x="70"
+y="205"
+fill="#ffffff"
+font-size="15"
+font-family="Consolas">
+
+@gmail.com
+
+</text>
+
+<!-- ================================= -->
+<!-- LINKEDIN PANEL -->
+<!-- ================================= -->
+
+<rect
+x="325"
+y="115"
+width="250"
+height="120"
+rx="12"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="350"
+cy="140"
+r="7"
+fill="#00ff66"/>
+
+<text
+x="375"
+y="146"
+fill="#ffffff"
+font-size="22"
+font-family="Georgia">
+
+💼 LINKEDIN
+
+</text>
+
+<text
+x="350"
+y="182"
+fill="#ff6699"
+font-size="15"
+font-family="Consolas">
+
+jahnavi-kommineni
+
+</text>
+
+<text
+x="350"
+y="206"
+fill="#ffffff"
+font-size="14"
+font-family="Consolas">
+
+Professional Profile
+
+</text>
+
+<!-- ================================= -->
+<!-- GITHUB PANEL -->
+<!-- ================================= -->
+
+<rect
+x="605"
+y="115"
+width="250"
+height="120"
+rx="12"
+fill="#111111"
+stroke="#ff0033"/>
+
+<circle
+cx="630"
+cy="140"
+r="7"
+fill="#00ff66"/>
+
+<text
+x="655"
+y="146"
+fill="#ffffff"
+font-size="22"
+font-family="Georgia">
+
+💻 GITHUB
+
+</text>
+
+<text
+x="630"
+y="182"
+fill="#ff6699"
+font-size="15"
+font-family="Consolas">
+
+jahnavikommineni9
+
+</text>
+
+<text
+x="630"
+y="206"
+fill="#ffffff"
+font-size="14"
+font-family="Consolas">
+
+Open Source Profile
+
+</text>
+  <!-- ================================= -->
+<!-- TERMINAL STATUS -->
+<!-- ================================= -->
+
+<rect
+x="650"
+y="35"
+width="180"
+height="34"
+rx="8"
+fill="#111111"
+stroke="#00ff66"/>
+
+<circle
+cx="670"
+cy="52"
+r="6"
+fill="#00ff66">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="745"
+y="58"
+text-anchor="middle"
+fill="#00ff66"
+font-size="15"
+font-family="Consolas"
+font-weight="bold">
+
+ONLINE
+
+</text>
+
+<!-- ================================= -->
+<!-- TERMINAL INFO -->
+<!-- ================================= -->
+
+<text
+x="60"
+y="265"
+fill="#888888"
+font-size="13"
+font-family="Consolas">
+
+STATUS : AVAILABLE FOR INTERNSHIPS • OPEN TO COLLABORATIONS
+
+</text>
+
+<!-- ================================= -->
+<!-- FLOATING PARTICLES -->
+<!-- ================================= -->
+
+<circle cx="160" cy="70" r="3" fill="#ff3366">
+
+<animate attributeName="cy"
+values="70;250;70"
+dur="8s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="480" cy="90" r="2.5" fill="#ff6699">
+
+<animate attributeName="cy"
+values="90;240;90"
+dur="6s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="770" cy="80" r="3" fill="#ff3366">
+
+<animate attributeName="cy"
+values="80;250;80"
+dur="9s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- ================================= -->
+<!-- SCAN LINE -->
+<!-- ================================= -->
+
+<rect
+x="-120"
+y="0"
+width="90"
+height="300"
+fill="white"
+opacity="0.04"
+transform="skewX(-20)">
+
+<animate
+attributeName="x"
+values="-120;980"
+dur="5s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- ================================= -->
+<!-- VERSION -->
+<!-- ================================= -->
+
+<text
+x="785"
+y="28"
+fill="#666666"
+font-size="13"
+font-family="Consolas">
+
+SYSTEM v3.0
+
+</text>
+  <!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
+
+<line
+x1="40"
+y1="280"
+x2="860"
+y2="280"
+stroke="#330000"
+stroke-width="2"/>
+
+<text
+x="450"
+y="295"
+text-anchor="middle"
+fill="#888888"
+font-size="13"
+font-family="Consolas">
+
+CONNECT • COLLABORATE • BUILD • INNOVATE
+
+</text>
+
+</svg>
