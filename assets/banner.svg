@@ -1,6 +1,149 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300">
-  <rect width="100%" height="100%" fill="black"/>
-  <text x="50%" y="50%" fill="red" font-size="42" text-anchor="middle" dominant-baseline="middle">
-    Hi, I'm Jahnavi 👋
-  </text>
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#050505"/>
+<stop offset="50%" stop-color="#120000"/>
+<stop offset="100%" stop-color="#050505"/>
+</linearGradient>
+
+<linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#ff1a3d"/>
+<stop offset="100%" stop-color="#7a0015"/>
+</linearGradient>
+
+<radialGradient id="moon">
+<stop offset="0%" stop-color="#ff4d6d"/>
+<stop offset="100%" stop-color="#5c0010"/>
+</radialGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="5" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1200" height="320" fill="url(#bg)"/>
+
+<!-- Outer Border -->
+
+<rect
+x="8"
+y="8"
+width="1184"
+height="304"
+rx="18"
+fill="none"
+stroke="url(#border)"
+stroke-width="3"
+filter="url(#glow)">
+
+<animate
+attributeName="stroke-opacity"
+values="0.4;1;0.4"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Red Moon -->
+
+<circle
+cx="120"
+cy="95"
+r="70"
+fill="url(#moon)"
+filter="url(#glow)">
+
+<animate
+attributeName="r"
+values="68;72;68"
+dur="5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Japanese Text -->
+
+<text
+x="40"
+y="260"
+fill="#ff304f"
+font-size="46"
+font-family="serif"
+writing-mode="tb">
+
+影
+炎
+紅
+
+</text>
+
+<!-- Neon Lines -->
+
+<line x1="0" y1="40" x2="1200" y2="40"
+stroke="#220000"
+stroke-width="2"/>
+
+<line x1="0" y1="280" x2="1200" y2="280"
+stroke="#220000"
+stroke-width="2"/>
+
+<!-- Animated Scan Line -->
+
+<rect
+x="0"
+y="0"
+width="1200"
+height="2"
+fill="#ff3355"
+opacity="0.6">
+
+<animate
+attributeName="y"
+values="0;320;0"
+dur="6s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Floating Particles -->
+
+<circle cx="980" cy="60" r="3" fill="#ff3355">
+
+<animate
+attributeName="cy"
+values="60;250;60"
+dur="5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="1080" cy="210" r="4" fill="#ff3355">
+
+<animate
+attributeName="cy"
+values="210;70;210"
+dur="6s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="1130" cy="120" r="5" fill="#ff3355">
+
+<animate
+attributeName="cy"
+values="120;260;120"
+dur="4s"
+repeatCount="indefinite"/>
+
+</circle>
+
 </svg>
