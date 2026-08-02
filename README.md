@@ -44,5 +44,9 @@ alt="Tech Matrix">
     📜 NAT N5 Certificate
   </a>
 </p>
+<h2 align="center">🐍 Contribution Snake</h2>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jahnavikommineni9/jahnavikommineni9/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
+</p>
 ---
