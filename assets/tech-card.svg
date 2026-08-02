@@ -379,10 +379,10 @@ fill="#111111"
 stroke="#ff0033"/>
 
 <text
-x="75"
-y="235"
+x="82"
+y="222"
 fill="#ffffff"
-font-size="18"
+font-size="15"
 font-family="Consolas">
 
 ⚡ JavaScript
@@ -408,11 +408,11 @@ fill="freeze"/>
 </rect>
 
 <text
-x="228"
-y="237"
+x="225"
+y="222"
 text-anchor="end"
 fill="#ff6666"
-font-size="12"
+font-size="11"
 font-family="Consolas"
 font-weight="bold">
 
@@ -634,10 +634,10 @@ fill="#111111"
 stroke="#ff0033"/>
 
 <text
-x="385"
-y="330"
+x="382"
+y="317"
 fill="#ffffff"
-font-size="17"
+font-size="15"
 font-family="Consolas">
 
 🍓 Raspberry Pi
@@ -663,11 +663,11 @@ fill="freeze"/>
 </rect>
 
 <text
-x="538"
-y="332"
+x="528"
+y="317"
 text-anchor="end"
 fill="#ff6666"
-font-size="12"
+font-size="11"
 font-family="Consolas"
 font-weight="bold">
 
@@ -686,10 +686,10 @@ fill="#111111"
 stroke="#ff0033"/>
 
 <text
-x="595"
-y="330"
+x="580"
+y="317"
 fill="#ffffff"
-font-size="22"
+font-size="16"
 font-family="Consolas">
 
 🤖 AI / ML
@@ -715,11 +715,11 @@ fill="freeze"/>
 </rect>
 
 <text
-x="738"
-y="332"
+x="728"
+y="317"
 text-anchor="end"
 fill="#ff6666"
-font-size="12"
+font-size="11"
 font-family="Consolas"
 font-weight="bold">
 
